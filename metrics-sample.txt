@@ -1,0 +1,485 @@
+# HELP bambulab_ams_dry_time_hours AMS dry time in hours
+# TYPE bambulab_ams_dry_time_hours gauge
+bambulab_ams_dry_time_hours{ams="0",printer="bambu"} 0
+# HELP bambulab_ams_exist_bits AMS existence bits
+# TYPE bambulab_ams_exist_bits gauge
+bambulab_ams_exist_bits{printer="bambu"} 1
+# HELP bambulab_ams_humidity AMS humidity
+# TYPE bambulab_ams_humidity gauge
+bambulab_ams_humidity{ams="0",printer="bambu"} 2
+# HELP bambulab_ams_humidity_raw AMS raw humidity value
+# TYPE bambulab_ams_humidity_raw gauge
+bambulab_ams_humidity_raw{ams="0",printer="bambu"} 36
+# HELP bambulab_ams_info AMS info value
+# TYPE bambulab_ams_info gauge
+bambulab_ams_info{ams="0",printer="bambu"} 1001
+# HELP bambulab_ams_insert_flag AMS insert flag (1 = inserted, 0 = not inserted)
+# TYPE bambulab_ams_insert_flag gauge
+bambulab_ams_insert_flag{printer="bambu"} 1
+# HELP bambulab_ams_power_on_flag AMS power on flag (1 = powered on, 0 = powered off)
+# TYPE bambulab_ams_power_on_flag gauge
+bambulab_ams_power_on_flag{printer="bambu"} 0
+# HELP bambulab_ams_rfid_status AMS RFID status
+# TYPE bambulab_ams_rfid_status gauge
+bambulab_ams_rfid_status{printer="bambu"} 3
+# HELP bambulab_ams_status AMS (Automatic Material System) status
+# TYPE bambulab_ams_status gauge
+bambulab_ams_status{printer="bambu"} 768
+# HELP bambulab_ams_temp_celsius AMS temperature in Celsius
+# TYPE bambulab_ams_temp_celsius gauge
+bambulab_ams_temp_celsius{ams="0",printer="bambu"} 29.5
+# HELP bambulab_ams_tray_bed_temp_celsius AMS tray bed temperature in Celsius
+# TYPE bambulab_ams_tray_bed_temp_celsius gauge
+bambulab_ams_tray_bed_temp_celsius{ams="0",printer="bambu",tray="0"} 0
+bambulab_ams_tray_bed_temp_celsius{ams="0",printer="bambu",tray="1"} 0
+bambulab_ams_tray_bed_temp_celsius{ams="0",printer="bambu",tray="2"} 0
+bambulab_ams_tray_bed_temp_celsius{ams="0",printer="bambu",tray="3"} 0
+# HELP bambulab_ams_tray_bed_temp_type AMS tray bed temperature type
+# TYPE bambulab_ams_tray_bed_temp_type gauge
+bambulab_ams_tray_bed_temp_type{ams="0",printer="bambu",tray="0"} 0
+bambulab_ams_tray_bed_temp_type{ams="0",printer="bambu",tray="1"} 0
+bambulab_ams_tray_bed_temp_type{ams="0",printer="bambu",tray="2"} 0
+bambulab_ams_tray_bed_temp_type{ams="0",printer="bambu",tray="3"} 0
+# HELP bambulab_ams_tray_cali_idx AMS tray calibration index
+# TYPE bambulab_ams_tray_cali_idx gauge
+bambulab_ams_tray_cali_idx{ams="0",printer="bambu",tray="0"} -1
+bambulab_ams_tray_cali_idx{ams="0",printer="bambu",tray="1"} -1
+bambulab_ams_tray_cali_idx{ams="0",printer="bambu",tray="2"} -1
+bambulab_ams_tray_cali_idx{ams="0",printer="bambu",tray="3"} -1
+# HELP bambulab_ams_tray_ctype AMS tray ctype
+# TYPE bambulab_ams_tray_ctype gauge
+bambulab_ams_tray_ctype{ams="0",printer="bambu",tray="0"} 0
+bambulab_ams_tray_ctype{ams="0",printer="bambu",tray="1"} 0
+bambulab_ams_tray_ctype{ams="0",printer="bambu",tray="2"} 0
+bambulab_ams_tray_ctype{ams="0",printer="bambu",tray="3"} 0
+# HELP bambulab_ams_tray_diameter_mm AMS tray diameter in millimeters
+# TYPE bambulab_ams_tray_diameter_mm gauge
+bambulab_ams_tray_diameter_mm{ams="0",printer="bambu",tray="0"} 1.75
+bambulab_ams_tray_diameter_mm{ams="0",printer="bambu",tray="1"} 1.75
+bambulab_ams_tray_diameter_mm{ams="0",printer="bambu",tray="2"} 1.75
+bambulab_ams_tray_diameter_mm{ams="0",printer="bambu",tray="3"} 1.75
+# HELP bambulab_ams_tray_id AMS tray ID
+# TYPE bambulab_ams_tray_id gauge
+bambulab_ams_tray_id{ams="0",printer="bambu",tray="0"} 0
+bambulab_ams_tray_id{ams="0",printer="bambu",tray="1"} 1
+bambulab_ams_tray_id{ams="0",printer="bambu",tray="2"} 2
+bambulab_ams_tray_id{ams="0",printer="bambu",tray="3"} 3
+# HELP bambulab_ams_tray_k AMS tray K value
+# TYPE bambulab_ams_tray_k gauge
+bambulab_ams_tray_k{ams="0",printer="bambu",tray="0"} 0.019999999552965164
+bambulab_ams_tray_k{ams="0",printer="bambu",tray="1"} 0.019999999552965164
+bambulab_ams_tray_k{ams="0",printer="bambu",tray="2"} 0.019999999552965164
+bambulab_ams_tray_k{ams="0",printer="bambu",tray="3"} 0.019999999552965164
+# HELP bambulab_ams_tray_n AMS tray N value
+# TYPE bambulab_ams_tray_n gauge
+bambulab_ams_tray_n{ams="0",printer="bambu",tray="0"} 1
+bambulab_ams_tray_n{ams="0",printer="bambu",tray="1"} 1
+bambulab_ams_tray_n{ams="0",printer="bambu",tray="2"} 1
+bambulab_ams_tray_n{ams="0",printer="bambu",tray="3"} 1
+# HELP bambulab_ams_tray_nozzle_temp_max_celsius AMS tray maximum nozzle temperature in Celsius
+# TYPE bambulab_ams_tray_nozzle_temp_max_celsius gauge
+bambulab_ams_tray_nozzle_temp_max_celsius{ams="0",printer="bambu",tray="0"} 230
+bambulab_ams_tray_nozzle_temp_max_celsius{ams="0",printer="bambu",tray="1"} 230
+bambulab_ams_tray_nozzle_temp_max_celsius{ams="0",printer="bambu",tray="2"} 230
+bambulab_ams_tray_nozzle_temp_max_celsius{ams="0",printer="bambu",tray="3"} 220
+# HELP bambulab_ams_tray_nozzle_temp_min_celsius AMS tray minimum nozzle temperature in Celsius
+# TYPE bambulab_ams_tray_nozzle_temp_min_celsius gauge
+bambulab_ams_tray_nozzle_temp_min_celsius{ams="0",printer="bambu",tray="0"} 190
+bambulab_ams_tray_nozzle_temp_min_celsius{ams="0",printer="bambu",tray="1"} 190
+bambulab_ams_tray_nozzle_temp_min_celsius{ams="0",printer="bambu",tray="2"} 190
+bambulab_ams_tray_nozzle_temp_min_celsius{ams="0",printer="bambu",tray="3"} 190
+# HELP bambulab_ams_tray_remain AMS tray remaining material
+# TYPE bambulab_ams_tray_remain gauge
+bambulab_ams_tray_remain{ams="0",printer="bambu",tray="0"} -1
+bambulab_ams_tray_remain{ams="0",printer="bambu",tray="1"} -1
+bambulab_ams_tray_remain{ams="0",printer="bambu",tray="2"} -1
+bambulab_ams_tray_remain{ams="0",printer="bambu",tray="3"} -1
+# HELP bambulab_ams_tray_state AMS tray state
+# TYPE bambulab_ams_tray_state gauge
+bambulab_ams_tray_state{ams="0",printer="bambu",tray="0"} 3
+bambulab_ams_tray_state{ams="0",printer="bambu",tray="1"} 3
+bambulab_ams_tray_state{ams="0",printer="bambu",tray="2"} 3
+bambulab_ams_tray_state{ams="0",printer="bambu",tray="3"} 3
+# HELP bambulab_ams_tray_temp_celsius AMS tray temperature in Celsius
+# TYPE bambulab_ams_tray_temp_celsius gauge
+bambulab_ams_tray_temp_celsius{ams="0",printer="bambu",tray="0"} 55
+bambulab_ams_tray_temp_celsius{ams="0",printer="bambu",tray="1"} 55
+bambulab_ams_tray_temp_celsius{ams="0",printer="bambu",tray="2"} 55
+bambulab_ams_tray_temp_celsius{ams="0",printer="bambu",tray="3"} 70
+# HELP bambulab_ams_tray_time_hours AMS tray time in hours
+# TYPE bambulab_ams_tray_time_hours gauge
+bambulab_ams_tray_time_hours{ams="0",printer="bambu",tray="0"} 8
+bambulab_ams_tray_time_hours{ams="0",printer="bambu",tray="1"} 8
+bambulab_ams_tray_time_hours{ams="0",printer="bambu",tray="2"} 8
+bambulab_ams_tray_time_hours{ams="0",printer="bambu",tray="3"} 8
+# HELP bambulab_ams_tray_total_len AMS tray total length
+# TYPE bambulab_ams_tray_total_len gauge
+bambulab_ams_tray_total_len{ams="0",printer="bambu",tray="0"} 330000
+bambulab_ams_tray_total_len{ams="0",printer="bambu",tray="1"} 330000
+bambulab_ams_tray_total_len{ams="0",printer="bambu",tray="2"} 330000
+bambulab_ams_tray_total_len{ams="0",printer="bambu",tray="3"} 330000
+# HELP bambulab_ams_version AMS version
+# TYPE bambulab_ams_version gauge
+bambulab_ams_version{printer="bambu"} 23
+# HELP bambulab_bed_target_temperature Target temperature of the bed
+# TYPE bambulab_bed_target_temperature gauge
+bambulab_bed_target_temperature{printer="bambu"} 55
+# HELP bambulab_bed_temperature Current temperature of the bed
+# TYPE bambulab_bed_temperature gauge
+bambulab_bed_temperature{printer="bambu"} 54.96875
+# HELP bambulab_big_fan1_speed Speed of the first big fan
+# TYPE bambulab_big_fan1_speed gauge
+bambulab_big_fan1_speed{printer="bambu"} 11
+# HELP bambulab_big_fan2_speed Speed of the second big fan
+# TYPE bambulab_big_fan2_speed gauge
+bambulab_big_fan2_speed{printer="bambu"} 8
+# HELP bambulab_calibration_k Calibration K value
+# TYPE bambulab_calibration_k gauge
+bambulab_calibration_k{printer="bambu"} 0.02
+# HELP bambulab_calibration_version Calibration version
+# TYPE bambulab_calibration_version gauge
+bambulab_calibration_version{printer="bambu"} 0
+# HELP bambulab_chamber_temperature Current temperature of the chamber
+# TYPE bambulab_chamber_temperature gauge
+bambulab_chamber_temperature{printer="bambu"} 5
+# HELP bambulab_cooling_fan_speed Speed of the cooling fan
+# TYPE bambulab_cooling_fan_speed gauge
+bambulab_cooling_fan_speed{printer="bambu"} 15
+# HELP bambulab_current_layer Current layer number being printed
+# TYPE bambulab_current_layer gauge
+bambulab_current_layer{printer="bambu"} 172
+# HELP bambulab_fan_gear Fan gear setting
+# TYPE bambulab_fan_gear gauge
+bambulab_fan_gear{printer="bambu"} 9.876223e+06
+# HELP bambulab_flag3 Flag3 status
+# TYPE bambulab_flag3 gauge
+bambulab_flag3{printer="bambu"} 667
+# HELP bambulab_force_upgrade Force upgrade status (1 = enabled, 0 = disabled)
+# TYPE bambulab_force_upgrade gauge
+bambulab_force_upgrade{printer="bambu"} 0
+# HELP bambulab_gcode_file_prepare_percent G-code file preparation progress percentage
+# TYPE bambulab_gcode_file_prepare_percent gauge
+bambulab_gcode_file_prepare_percent{printer="bambu"} 100
+# HELP bambulab_gcode_state G-code state (0 = idle, 1 = running, 2 = paused, 3 = completed, 4 = error)
+# TYPE bambulab_gcode_state gauge
+bambulab_gcode_state{printer="bambu"} 1
+# HELP bambulab_hardware_switch_state Hardware switch state
+# TYPE bambulab_hardware_switch_state gauge
+bambulab_hardware_switch_state{printer="bambu"} 1
+# HELP bambulab_heatbreak_fan_speed Speed of the heatbreak fan
+# TYPE bambulab_heatbreak_fan_speed gauge
+bambulab_heatbreak_fan_speed{printer="bambu"} 15
+# HELP bambulab_home_flag Home flag status
+# TYPE bambulab_home_flag gauge
+bambulab_home_flag{printer="bambu"} 6.505791e+06
+# HELP bambulab_ipcam_dev IP camera device status (1 = enabled, 0 = disabled)
+# TYPE bambulab_ipcam_dev gauge
+bambulab_ipcam_dev{printer="bambu"} 1
+# HELP bambulab_ipcam_mode_bits IP camera mode bits
+# TYPE bambulab_ipcam_mode_bits gauge
+bambulab_ipcam_mode_bits{printer="bambu"} 3
+# HELP bambulab_ipcam_record IP camera record status (1 = enabled, 0 = disabled)
+# TYPE bambulab_ipcam_record gauge
+bambulab_ipcam_record{printer="bambu"} 1
+# HELP bambulab_ipcam_timelapse IP camera timelapse status (1 = enabled, 0 = disabled)
+# TYPE bambulab_ipcam_timelapse gauge
+bambulab_ipcam_timelapse{printer="bambu"} 1
+# HELP bambulab_ipcam_tutk_server IP camera TUTK server status (1 = enabled, 0 = disabled)
+# TYPE bambulab_ipcam_tutk_server gauge
+bambulab_ipcam_tutk_server{printer="bambu"} 1
+# HELP bambulab_lights_report_chamber_light_mode Chamber light mode (0 = off, 1 = on)
+# TYPE bambulab_lights_report_chamber_light_mode gauge
+bambulab_lights_report_chamber_light_mode{printer="bambu"} 1
+# HELP bambulab_mc_print_line_number Current G-code line number being executed
+# TYPE bambulab_mc_print_line_number gauge
+bambulab_mc_print_line_number{printer="bambu"} 0
+# HELP bambulab_mess_production_state Mess production state (0 = inactive, 1 = active)
+# TYPE bambulab_mess_production_state gauge
+bambulab_mess_production_state{printer="bambu"} 1
+# HELP bambulab_msg Message value
+# TYPE bambulab_msg gauge
+bambulab_msg{printer="bambu"} 0
+# HELP bambulab_net_conf Network configuration
+# TYPE bambulab_net_conf gauge
+bambulab_net_conf{printer="bambu"} 0
+# HELP bambulab_nozzle_diameter_mm Nozzle diameter in millimeters
+# TYPE bambulab_nozzle_diameter_mm gauge
+bambulab_nozzle_diameter_mm{printer="bambu"} 0.4
+# HELP bambulab_nozzle_target_temperature Target temperature of the nozzle
+# TYPE bambulab_nozzle_target_temperature gauge
+bambulab_nozzle_target_temperature{printer="bambu"} 220
+# HELP bambulab_nozzle_temperature Current temperature of the nozzle
+# TYPE bambulab_nozzle_temperature gauge
+bambulab_nozzle_temperature{printer="bambu"} 220.09375
+# HELP bambulab_online_ahb Online AHB status (1 = online, 0 = offline)
+# TYPE bambulab_online_ahb gauge
+bambulab_online_ahb{printer="bambu"} 0
+# HELP bambulab_online_rfid Online RFID status (1 = online, 0 = offline)
+# TYPE bambulab_online_rfid gauge
+bambulab_online_rfid{printer="bambu"} 0
+# HELP bambulab_online_version Online version
+# TYPE bambulab_online_version gauge
+bambulab_online_version{printer="bambu"} 5.55843598e+08
+# HELP bambulab_print_error Print error code (0 = no error)
+# TYPE bambulab_print_error gauge
+bambulab_print_error{printer="bambu"} 0
+# HELP bambulab_print_progress_percent Print progress as a percentage
+# TYPE bambulab_print_progress_percent gauge
+bambulab_print_progress_percent{printer="bambu"} 88
+# HELP bambulab_print_remaining_time_minutes Remaining print time in minutes
+# TYPE bambulab_print_remaining_time_minutes gauge
+bambulab_print_remaining_time_minutes{printer="bambu"} 29
+# HELP bambulab_print_speed_level Print speed level
+# TYPE bambulab_print_speed_level gauge
+bambulab_print_speed_level{printer="bambu"} 2
+# HELP bambulab_print_speed_magnitude Print speed magnitude
+# TYPE bambulab_print_speed_magnitude gauge
+bambulab_print_speed_magnitude{printer="bambu"} 100
+# HELP bambulab_print_stage Current print stage
+# TYPE bambulab_print_stage gauge
+bambulab_print_stage{printer="bambu"} 2
+# HELP bambulab_print_sub_stage Current print sub-stage
+# TYPE bambulab_print_sub_stage gauge
+bambulab_print_sub_stage{printer="bambu"} 0
+# HELP bambulab_print_type Print type (0 = local, 1 = cloud)
+# TYPE bambulab_print_type gauge
+bambulab_print_type{printer="bambu"} 1
+# HELP bambulab_queue_estimated_time_minutes Estimated queue time in minutes
+# TYPE bambulab_queue_estimated_time_minutes gauge
+bambulab_queue_estimated_time_minutes{printer="bambu"} 0
+# HELP bambulab_queue_number Current queue number
+# TYPE bambulab_queue_number gauge
+bambulab_queue_number{printer="bambu"} 0
+# HELP bambulab_queue_status Queue status
+# TYPE bambulab_queue_status gauge
+bambulab_queue_status{printer="bambu"} 0
+# HELP bambulab_queue_total Total items in queue
+# TYPE bambulab_queue_total gauge
+bambulab_queue_total{printer="bambu"} 0
+# HELP bambulab_sdcard_present SD card presence status (1 = present, 0 = not present)
+# TYPE bambulab_sdcard_present gauge
+bambulab_sdcard_present{printer="bambu"} 1
+# HELP bambulab_sequence_id Sequence ID
+# TYPE bambulab_sequence_id gauge
+bambulab_sequence_id{printer="bambu"} 12009
+# HELP bambulab_total_layers Total number of layers in the print
+# TYPE bambulab_total_layers gauge
+bambulab_total_layers{printer="bambu"} 217
+# HELP bambulab_tray_current Current tray number
+# TYPE bambulab_tray_current gauge
+bambulab_tray_current{printer="bambu"} 0
+# HELP bambulab_tray_exist_bits Tray existence bits
+# TYPE bambulab_tray_exist_bits gauge
+bambulab_tray_exist_bits{printer="bambu"} 0
+# HELP bambulab_tray_is_bbl_bits Tray is BBL bits
+# TYPE bambulab_tray_is_bbl_bits gauge
+bambulab_tray_is_bbl_bits{printer="bambu"} 0
+# HELP bambulab_tray_previous Previous tray number
+# TYPE bambulab_tray_previous gauge
+bambulab_tray_previous{printer="bambu"} 0
+# HELP bambulab_tray_read_done_bits Tray read done bits
+# TYPE bambulab_tray_read_done_bits gauge
+bambulab_tray_read_done_bits{printer="bambu"} 0
+# HELP bambulab_tray_reading_bits Tray reading bits
+# TYPE bambulab_tray_reading_bits gauge
+bambulab_tray_reading_bits{printer="bambu"} 0
+# HELP bambulab_tray_target Target tray number
+# TYPE bambulab_tray_target gauge
+bambulab_tray_target{printer="bambu"} 0
+# HELP bambulab_upgrade_state_consistency_request Upgrade state consistency request (1 = requested, 0 = not requested)
+# TYPE bambulab_upgrade_state_consistency_request gauge
+bambulab_upgrade_state_consistency_request{printer="bambu"} 0
+# HELP bambulab_upgrade_state_cur_state_code Upgrade state current state code
+# TYPE bambulab_upgrade_state_cur_state_code gauge
+bambulab_upgrade_state_cur_state_code{printer="bambu"} 1
+# HELP bambulab_upgrade_state_dis_state Upgrade state dis state
+# TYPE bambulab_upgrade_state_dis_state gauge
+bambulab_upgrade_state_dis_state{printer="bambu"} 0
+# HELP bambulab_upgrade_state_err_code Upgrade state error code
+# TYPE bambulab_upgrade_state_err_code gauge
+bambulab_upgrade_state_err_code{printer="bambu"} 0
+# HELP bambulab_upgrade_state_force_upgrade Upgrade state force upgrade (1 = enabled, 0 = disabled)
+# TYPE bambulab_upgrade_state_force_upgrade gauge
+bambulab_upgrade_state_force_upgrade{printer="bambu"} 0
+# HELP bambulab_upgrade_state_idx2 Upgrade state idx2
+# TYPE bambulab_upgrade_state_idx2 gauge
+bambulab_upgrade_state_idx2{printer="bambu"} 2.753728134e+09
+# HELP bambulab_upgrade_state_module Upgrade state module
+# TYPE bambulab_upgrade_state_module gauge
+bambulab_upgrade_state_module{printer="bambu"} 0
+# HELP bambulab_upgrade_state_new_version_state Upgrade state new version state
+# TYPE bambulab_upgrade_state_new_version_state gauge
+bambulab_upgrade_state_new_version_state{printer="bambu"} 2
+# HELP bambulab_upgrade_state_progress_percent Upgrade state progress as a percentage
+# TYPE bambulab_upgrade_state_progress_percent gauge
+bambulab_upgrade_state_progress_percent{printer="bambu"} 0
+# HELP bambulab_upgrade_state_sequence_id Upgrade state sequence ID
+# TYPE bambulab_upgrade_state_sequence_id gauge
+bambulab_upgrade_state_sequence_id{printer="bambu"} 0
+# HELP bambulab_upgrade_state_status Upgrade state status (0 = idle, 1 = upgrading, 2 = completed, 3 = error)
+# TYPE bambulab_upgrade_state_status gauge
+bambulab_upgrade_state_status{printer="bambu"} 0
+# HELP bambulab_upload_progress_percent Upload progress as a percentage
+# TYPE bambulab_upload_progress_percent gauge
+bambulab_upload_progress_percent{printer="bambu"} 0
+# HELP bambulab_upload_status Upload status (0 = idle, 1 = uploading, 2 = completed, 3 = error)
+# TYPE bambulab_upload_status gauge
+bambulab_upload_status{printer="bambu"} 0
+# HELP bambulab_vt_tray_bed_temp_celsius VT tray bed temperature in Celsius
+# TYPE bambulab_vt_tray_bed_temp_celsius gauge
+bambulab_vt_tray_bed_temp_celsius{printer="bambu"} 0
+# HELP bambulab_vt_tray_bed_temp_type VT tray bed temperature type
+# TYPE bambulab_vt_tray_bed_temp_type gauge
+bambulab_vt_tray_bed_temp_type{printer="bambu"} 0
+# HELP bambulab_vt_tray_cali_idx VT tray calibration index
+# TYPE bambulab_vt_tray_cali_idx gauge
+bambulab_vt_tray_cali_idx{printer="bambu"} -1
+# HELP bambulab_vt_tray_diameter_mm VT tray diameter in millimeters
+# TYPE bambulab_vt_tray_diameter_mm gauge
+bambulab_vt_tray_diameter_mm{printer="bambu"} 0
+# HELP bambulab_vt_tray_id VT tray ID
+# TYPE bambulab_vt_tray_id gauge
+bambulab_vt_tray_id{printer="bambu"} 254
+# HELP bambulab_vt_tray_k VT tray K value
+# TYPE bambulab_vt_tray_k gauge
+bambulab_vt_tray_k{printer="bambu"} 0.019999999552965164
+# HELP bambulab_vt_tray_n VT tray N value
+# TYPE bambulab_vt_tray_n gauge
+bambulab_vt_tray_n{printer="bambu"} 1
+# HELP bambulab_vt_tray_nozzle_temp_max_celsius VT tray maximum nozzle temperature in Celsius
+# TYPE bambulab_vt_tray_nozzle_temp_max_celsius gauge
+bambulab_vt_tray_nozzle_temp_max_celsius{printer="bambu"} 0
+# HELP bambulab_vt_tray_nozzle_temp_min_celsius VT tray minimum nozzle temperature in Celsius
+# TYPE bambulab_vt_tray_nozzle_temp_min_celsius gauge
+bambulab_vt_tray_nozzle_temp_min_celsius{printer="bambu"} 0
+# HELP bambulab_vt_tray_remain VT tray remaining material
+# TYPE bambulab_vt_tray_remain gauge
+bambulab_vt_tray_remain{printer="bambu"} 0
+# HELP bambulab_vt_tray_temp_celsius VT tray temperature in Celsius
+# TYPE bambulab_vt_tray_temp_celsius gauge
+bambulab_vt_tray_temp_celsius{printer="bambu"} 0
+# HELP bambulab_vt_tray_time_hours VT tray time in hours
+# TYPE bambulab_vt_tray_time_hours gauge
+bambulab_vt_tray_time_hours{printer="bambu"} 0
+# HELP bambulab_wifi_signal_dbm WiFi signal strength in dBm
+# TYPE bambulab_wifi_signal_dbm gauge
+bambulab_wifi_signal_dbm{printer="bambu"} -45
+# HELP go_gc_duration_seconds A summary of the wall-time pause (stop-the-world) duration in garbage collection cycles.
+# TYPE go_gc_duration_seconds summary
+go_gc_duration_seconds{quantile="0"} 0
+go_gc_duration_seconds{quantile="0.25"} 0
+go_gc_duration_seconds{quantile="0.5"} 0
+go_gc_duration_seconds{quantile="0.75"} 0
+go_gc_duration_seconds{quantile="1"} 0.0007757
+go_gc_duration_seconds_sum 0.0007757
+go_gc_duration_seconds_count 11
+# HELP go_gc_gogc_percent Heap size target percentage configured by the user, otherwise 100. This value is set by the GOGC environment variable, and the runtime/debug.SetGCPercent function. Sourced from /gc/gogc:percent.
+# TYPE go_gc_gogc_percent gauge
+go_gc_gogc_percent 100
+# HELP go_gc_gomemlimit_bytes Go runtime memory limit configured by the user, otherwise math.MaxInt64. This value is set by the GOMEMLIMIT environment variable, and the runtime/debug.SetMemoryLimit function. Sourced from /gc/gomemlimit:bytes.
+# TYPE go_gc_gomemlimit_bytes gauge
+go_gc_gomemlimit_bytes 9.223372036854776e+18
+# HELP go_goroutines Number of goroutines that currently exist.
+# TYPE go_goroutines gauge
+go_goroutines 17
+# HELP go_info Information about the Go environment.
+# TYPE go_info gauge
+go_info{version="go1.24.0"} 1
+# HELP go_memstats_alloc_bytes Number of bytes allocated in heap and currently in use. Equals to /memory/classes/heap/objects:bytes.
+# TYPE go_memstats_alloc_bytes gauge
+go_memstats_alloc_bytes 1.803856e+06
+# HELP go_memstats_alloc_bytes_total Total number of bytes allocated in heap until now, even if released already. Equals to /gc/heap/allocs:bytes.
+# TYPE go_memstats_alloc_bytes_total counter
+go_memstats_alloc_bytes_total 1.1377944e+07
+# HELP go_memstats_buck_hash_sys_bytes Number of bytes used by the profiling bucket hash table. Equals to /memory/classes/profiling/buckets:bytes.
+# TYPE go_memstats_buck_hash_sys_bytes gauge
+go_memstats_buck_hash_sys_bytes 6845
+# HELP go_memstats_frees_total Total number of heap objects frees. Equals to /gc/heap/frees:objects + /gc/heap/tiny/allocs:objects.
+# TYPE go_memstats_frees_total counter
+go_memstats_frees_total 50687
+# HELP go_memstats_gc_sys_bytes Number of bytes used for garbage collection system metadata. Equals to /memory/classes/metadata/other:bytes.
+# TYPE go_memstats_gc_sys_bytes gauge
+go_memstats_gc_sys_bytes 2.645288e+06
+# HELP go_memstats_heap_alloc_bytes Number of heap bytes allocated and currently in use, same as go_memstats_alloc_bytes. Equals to /memory/classes/heap/objects:bytes.
+# TYPE go_memstats_heap_alloc_bytes gauge
+go_memstats_heap_alloc_bytes 1.803856e+06
+# HELP go_memstats_heap_idle_bytes Number of heap bytes waiting to be used. Equals to /memory/classes/heap/released:bytes + /memory/classes/heap/free:bytes.
+# TYPE go_memstats_heap_idle_bytes gauge
+go_memstats_heap_idle_bytes 8.15104e+06
+# HELP go_memstats_heap_inuse_bytes Number of heap bytes that are in use. Equals to /memory/classes/heap/objects:bytes + /memory/classes/heap/unused:bytes
+# TYPE go_memstats_heap_inuse_bytes gauge
+go_memstats_heap_inuse_bytes 3.776512e+06
+# HELP go_memstats_heap_objects Number of currently allocated objects. Equals to /gc/heap/objects:objects.
+# TYPE go_memstats_heap_objects gauge
+go_memstats_heap_objects 6298
+# HELP go_memstats_heap_released_bytes Number of heap bytes released to OS. Equals to /memory/classes/heap/released:bytes.
+# TYPE go_memstats_heap_released_bytes gauge
+go_memstats_heap_released_bytes 7.979008e+06
+# HELP go_memstats_heap_sys_bytes Number of heap bytes obtained from system. Equals to /memory/classes/heap/objects:bytes + /memory/classes/heap/unused:bytes + /memory/classes/heap/released:bytes + /memory/classes/heap/free:bytes.
+# TYPE go_memstats_heap_sys_bytes gauge
+go_memstats_heap_sys_bytes 1.1927552e+07
+# HELP go_memstats_last_gc_time_seconds Number of seconds since 1970 of last garbage collection.
+# TYPE go_memstats_last_gc_time_seconds gauge
+go_memstats_last_gc_time_seconds 1.7525672151740947e+09
+# HELP go_memstats_mallocs_total Total number of heap objects allocated, both live and gc-ed. Semantically a counter version for go_memstats_heap_objects gauge. Equals to /gc/heap/allocs:objects + /gc/heap/tiny/allocs:objects.
+# TYPE go_memstats_mallocs_total counter
+go_memstats_mallocs_total 56985
+# HELP go_memstats_mcache_inuse_bytes Number of bytes in use by mcache structures. Equals to /memory/classes/metadata/mcache/inuse:bytes.
+# TYPE go_memstats_mcache_inuse_bytes gauge
+go_memstats_mcache_inuse_bytes 37632
+# HELP go_memstats_mcache_sys_bytes Number of bytes used for mcache structures obtained from system. Equals to /memory/classes/metadata/mcache/inuse:bytes + /memory/classes/metadata/mcache/free:bytes.
+# TYPE go_memstats_mcache_sys_bytes gauge
+go_memstats_mcache_sys_bytes 45864
+# HELP go_memstats_mspan_inuse_bytes Number of bytes in use by mspan structures. Equals to /memory/classes/metadata/mspan/inuse:bytes.
+# TYPE go_memstats_mspan_inuse_bytes gauge
+go_memstats_mspan_inuse_bytes 145760
+# HELP go_memstats_mspan_sys_bytes Number of bytes used for mspan structures obtained from system. Equals to /memory/classes/metadata/mspan/inuse:bytes + /memory/classes/metadata/mspan/free:bytes.
+# TYPE go_memstats_mspan_sys_bytes gauge
+go_memstats_mspan_sys_bytes 146880
+# HELP go_memstats_next_gc_bytes Number of heap bytes when next garbage collection will take place. Equals to /gc/heap/goal:bytes.
+# TYPE go_memstats_next_gc_bytes gauge
+go_memstats_next_gc_bytes 4.194304e+06
+# HELP go_memstats_other_sys_bytes Number of bytes used for other system allocations. Equals to /memory/classes/other:bytes.
+# TYPE go_memstats_other_sys_bytes gauge
+go_memstats_other_sys_bytes 2.025267e+06
+# HELP go_memstats_stack_inuse_bytes Number of bytes obtained from system for stack allocator in non-CGO environments. Equals to /memory/classes/heap/stacks:bytes.
+# TYPE go_memstats_stack_inuse_bytes gauge
+go_memstats_stack_inuse_bytes 655360
+# HELP go_memstats_stack_sys_bytes Number of bytes obtained from system for stack allocator. Equals to /memory/classes/heap/stacks:bytes + /memory/classes/os-stacks:bytes.
+# TYPE go_memstats_stack_sys_bytes gauge
+go_memstats_stack_sys_bytes 655360
+# HELP go_memstats_sys_bytes Number of bytes obtained from system. Equals to /memory/classes/total:byte.
+# TYPE go_memstats_sys_bytes gauge
+go_memstats_sys_bytes 1.7453056e+07
+# HELP go_sched_gomaxprocs_threads The current runtime.GOMAXPROCS setting, or the number of operating system threads that can execute user-level Go code simultaneously. Sourced from /sched/gomaxprocs:threads.
+# TYPE go_sched_gomaxprocs_threads gauge
+go_sched_gomaxprocs_threads 32
+# HELP go_threads Number of OS threads created.
+# TYPE go_threads gauge
+go_threads 14
+# HELP process_cpu_seconds_total Total user and system CPU time spent in seconds.
+# TYPE process_cpu_seconds_total counter
+process_cpu_seconds_total 0.203125
+# HELP process_max_fds Maximum number of open file descriptors.
+# TYPE process_max_fds gauge
+process_max_fds 1.6777216e+07
+# HELP process_open_fds Number of open file descriptors.
+# TYPE process_open_fds gauge
+process_open_fds 173
+# HELP process_resident_memory_bytes Resident memory size in bytes.
+# TYPE process_resident_memory_bytes gauge
+process_resident_memory_bytes 2.0205568e+07
+# HELP process_start_time_seconds Start time of the process since unix epoch in seconds.
+# TYPE process_start_time_seconds gauge
+process_start_time_seconds 1.752566231e+09
+# HELP process_virtual_memory_bytes Virtual memory size in bytes.
+# TYPE process_virtual_memory_bytes gauge
+process_virtual_memory_bytes 1.9873792e+07
+# HELP promhttp_metric_handler_requests_in_flight Current number of scrapes being served.
+# TYPE promhttp_metric_handler_requests_in_flight gauge
+promhttp_metric_handler_requests_in_flight 1
+# HELP promhttp_metric_handler_requests_total Total number of scrapes by HTTP status code.
+# TYPE promhttp_metric_handler_requests_total counter
+promhttp_metric_handler_requests_total{code="200"} 11
+promhttp_metric_handler_requests_total{code="500"} 0
+promhttp_metric_handler_requests_total{code="503"} 0
