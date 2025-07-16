@@ -49,6 +49,8 @@ func receivePrintReport(report map[string]any) {
 			metrics.AmsRfidStatus.WithLabelValues(config.PrinterName).Set(safeFloat64(value))
 		case "hw_switch_state":
 			metrics.HardwareSwitchState.WithLabelValues(config.PrinterName).Set(safeFloat64(value))
+		case "stg_cur":
+			metrics.Stage.WithLabelValues(config.PrinterName).Set(safeFloat64(value))
 		case "mc_print_stage":
 			metrics.PrintStage.WithLabelValues(config.PrinterName).Set(safeFloat64(value))
 		case "mc_print_sub_stage":
@@ -180,7 +182,6 @@ func receivePrintReport(report map[string]any) {
 		case "subtask_name":
 		case "gcode_file":
 		case "stg":
-		case "stg_cur":
 		case "s_obj":
 		case "filam_bak":
 		case "nozzle_type":

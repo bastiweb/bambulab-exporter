@@ -104,6 +104,11 @@ var HardwareSwitchState = makeCollector(prometheus.NewGaugeVec(prometheus.GaugeO
 	Help: "Hardware switch state",
 }, []string{"printer"}))
 
+var Stage = makeCollector(prometheus.NewGaugeVec(prometheus.GaugeOpts{
+	Name: metricPrefix + "stage",
+	Help: "Current stage",
+}, []string{"printer"}))
+
 var PrintStage = makeCollector(prometheus.NewGaugeVec(prometheus.GaugeOpts{
 	Name: metricPrefix + "print_stage",
 	Help: "Current print stage",
