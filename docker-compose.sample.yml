@@ -1,7 +1,7 @@
 version: "3.5"
 services:
   bambulab-exporter:
-    image: ghcr.io/scrin/bambulab-exporter
+    image: ghcr.io/bastiweb/bambulab-exporter
     container_name: bambulab-exporter
     restart: unless-stopped
     ports:

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Scrin/bambulab-exporter/config"
+	"github.com/bastiweb/bambulab-exporter/config"
 	mqtt "github.com/eclipse/paho.mqtt.golang"
 	"github.com/rs/zerolog/log"
 )

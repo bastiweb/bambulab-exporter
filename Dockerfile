@@ -1,6 +1,6 @@
 FROM golang:1.24-alpine AS builder
 
-WORKDIR /go/src/github.com/Scrin/bambulab-exporter/
+WORKDIR /go/src/github.com/bastiweb/bambulab-exporter/
 COPY go.mod go.sum ./
 RUN go mod download
 

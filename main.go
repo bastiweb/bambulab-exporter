@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/Scrin/bambulab-exporter/api"
-	"github.com/Scrin/bambulab-exporter/collector"
-	"github.com/Scrin/bambulab-exporter/config"
-	"github.com/Scrin/bambulab-exporter/logging"
-	"github.com/Scrin/bambulab-exporter/mqtt"
+	"github.com/bastiweb/bambulab-exporter/api"
+	"github.com/bastiweb/bambulab-exporter/collector"
+	"github.com/bastiweb/bambulab-exporter/config"
+	"github.com/bastiweb/bambulab-exporter/logging"
+	"github.com/bastiweb/bambulab-exporter/mqtt"
 	"github.com/rs/zerolog/log"
 )
 

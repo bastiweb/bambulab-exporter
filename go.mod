@@ -1,4 +1,4 @@
-module github.com/Scrin/bambulab-exporter
+module github.com/bastiweb/bambulab-exporter
 
 go 1.24.0
 

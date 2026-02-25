@@ -1,8 +1,8 @@
 package collector
 
 import (
-	"github.com/Scrin/bambulab-exporter/config"
-	"github.com/Scrin/bambulab-exporter/metrics"
+	"github.com/bastiweb/bambulab-exporter/config"
+	"github.com/bastiweb/bambulab-exporter/metrics"
 	"github.com/rs/zerolog/log"
 )
 
